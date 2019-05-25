@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "global": "^4.3.2",
+    "json": "^9.0.6"
+  },
+  "cacheDirectories": [
+    "client/node_modules"
+  ],
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "npm run build && npm run deploy"
+  }
+}
