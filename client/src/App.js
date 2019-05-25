@@ -12,10 +12,6 @@ class App extends Component {
   state = {
     "todaysDate": "",
     "tasksOfTheDay": [
-      { "k": "jhgkbvhjk" },
-      { "d": "jhgkbvhjk" },
-      { "k": "jhgkbvhjk" },
-
     ],
   }
 
