@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "global": "^4.3.2",
-    "json": "^9.0.6"
+    "json": "^10.0.0"
   },
   "cacheDirectories": [
     "client/node_modules"
